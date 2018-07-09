@@ -1,0 +1,1 @@
+SELECT distinct COURSE_NAME from course_info;

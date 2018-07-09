@@ -1,0 +1,3 @@
+create table COURSE_INFO(COURSE_CODE int, COURSE varchar(20), 
+COURSE_DESCRIPTION varchar(20),
+COURSE_START_DATE date);

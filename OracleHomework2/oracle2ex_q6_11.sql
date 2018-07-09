@@ -1,0 +1,3 @@
+SELECT * FROM course_info
+WHERE COURSE_NAME='Core Java'
+and COURSE_CODE=343;
