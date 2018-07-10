@@ -1,4 +1,3 @@
-#using mysql so data types are different
 create table students (
 First_Name varchar(20) NOT NULL,
 Last_Name varchar(20) NOT NULL,
@@ -6,18 +5,19 @@ E_Mail varchar(50) NOT NULL,
 Address varchar(100) NOT NULL,
 State char(15) NOT NULL,
 Pin Int(10) NOT NULL,
-Phone_No varchar(10),
+Phone_No varchar(10) null,
 S_ID varchar(10) NOT NULL primary key,
 Date_Of_Birth DATE NOT NULL,
 Qualification varchar(2) NOT NULL,
 Percent_10 int(3) NOT NULL,
+Percent_12 int (2) NOT NULL,
 Date_Of_Passing_12 date NOT NULL,
 Subjects varchar(20) NOT NULL);
 
 create table courses(
 C_Name varchar(20) NOT NULL,
 C_Code int(3) NOT NULL PRIMARY KEY,
-C_Subjects varchar(10) NOT NULL,
+C_Subjects varchar(20) NOT NULL,
 C_Duration int(2) NOT NULL,
 C_Fee int(4) NOT NULL,
 C_Description varchar(50) NOT NULL);
