@@ -1,7 +1,7 @@
 insert into students (First_Name,Last_Name,E_Mail,
 Address,State,Pin,
 Phone_No,S_ID,Date_Of_Birth,
-Qualification,Percent_10,Date_Of_Passing_12,
+Qualification,Percent_10, Percent_12,Date_Of_Passing_12,
 Subjects)
 values ('Ranjit', 'Chatterjee', 'r_chatt@aaa.com', '2/10 ashok vihar', 'west bengal', 700101, 9876578901, 'S1001', '1980-04-22', 'BE', 70, 69, '2002-03-30', 'Mechanical Engg.'),
 	  ('Kaushik', 'Bhatterjee',  'kaushik@bb.com','block A gagan vihar','west bengal',700096,9812345643,  'S1002', '1980-08-10','BE',   65,72,'2002-04-30','Civil Engg'),
@@ -35,7 +35,7 @@ values ('R1001',100,101,'APPLIED',NULL),
 ('R1005', 103, 102, 'ISSUED', '2003-10-18'),
 ('R1006', 103, 103, 'ISSUED', '2004-01-10');
 
-insert into instructor(First_Name,Last_Name,Address,State,Pin,Instructor_ID,Date_Of_Birth,Qualification,
+insert into instructor(First_Name,Last_Name,Address,State,Phone_No,Instructor_ID,Date_Of_Birth,Qualification,
 Subjects,C_Code)
 values('Kaushik','Bhatterjee','block A gagan vihar','west bengal',700101,'I1001',
 '1973-04-22','BE','Comp Engg',100),
@@ -47,8 +47,16 @@ values('Kaushik','Bhatterjee','block A gagan vihar','west bengal',700101,'I1001'
 ('Radha','Mukherjee','8/12c ashoka','west bengal',700109,'I1005','1971-05-03','BE','Comp Engg',104),
 ('Sekhar','Rao','22/10 A Vishal Apt','west bengal',700109,'I1006','1975-05-03','BE','Comp Engg',103);
 
-insert into emp(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,PHONE_NUMBER,HIRE_DATE,SALARY,COMMISSION_PCT,MANAGER_ID,JOB_ID,DEPARTMENT_ID
-)
+insert into emp(Employee_ID,
+First_Name,
+Last_Name,
+Phone_No,
+Hire_Date,
+Salary,
+Commission_PCT,
+Manager_ID,
+Job_ID,
+Department_ID)
 values(10,'Smith','Trenna',7890,'1997-01-29',20000,0.5,20,'SA_REP',10),
 (20,'Sam','Peter',3456,'1998-03-15',30000, NULL, NULL, 'MKT_REP', 10),
 (30,'Sekhar','Rao',7632,'1998-07-09',13000,0.5,20,'ST_CLERK',20),
@@ -56,24 +64,4 @@ values(10,'Smith','Trenna',7890,'1997-01-29',20000,0.5,20,'SA_REP',10),
 (50, 'Kanchan','Sen',9000,'1996-10-01',12000,0.3,10,'ST_CLERK',	10),
 (60,'Kushik','Bhatterjee',2345,'1997-01-05',9000,0.6,30,'SA_MAN',20),
 (70, 'Radha','Mukherjee',2134,'1997-03-10',15000,0.6,30,'SA_MAN',20);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
