@@ -13,10 +13,10 @@ WHERE students.Phone_Number=P_Phone_Number or students.New_Email=P_New_Email or
          END Update_Student_Contact_Info;
     
     procedure displaynamenumber( displaynanph in varchar2) is
-    
-    begin 
-    displaynam varchar2;
+     displaynam varchar2;
     displayph varchar2;
+    begin 
+  
     select students.name, students.Phone_Number INTO displaynam, displayph
     from students 
     where students.name like 'displaynanph%' 
