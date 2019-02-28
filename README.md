@@ -1,3 +1,3 @@
 # SqlPortfolio
 
-#myasin MINE not MySqL
+#my as in MINE not MySqL lol
